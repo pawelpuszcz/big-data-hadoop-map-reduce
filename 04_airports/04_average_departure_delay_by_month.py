@@ -19,7 +19,7 @@ class MRFlights(MRJob):
             ARRIVAL_DELAY = 0
         
         DEPARTURE_DELAY = float(DEPARTURE_DELAY)
-        ARRIVAL_DELAY = float(DEPARTURE_DELAY)
+        ARRIVAL_DELAY = float(ARRIVAL_DELAY)
         MONTH = int(MONTH)
 
         yield f'{MONTH:02d}', (DEPARTURE_DELAY, ARRIVAL_DELAY)
